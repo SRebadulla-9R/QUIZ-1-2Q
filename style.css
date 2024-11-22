@@ -1,0 +1,81 @@
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th, td {
+  padding: 15px;
+}
+
+th {
+  font-family: "Sen", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  height: 70px;
+}
+
+td {
+  text-align: center;
+}
+
+table {
+  border-spacing: 15px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+h1 {
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 30px;
+}
+
+h4 {
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 1px;
+}
+
+h5 {
+   font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 1px;
+}
+
+.black-han-sans-regular {
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 800
+
+.sen-<uniquifier> {
+  font-family: "Sen", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
